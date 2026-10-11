@@ -1,0 +1,33 @@
+(function () {
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "url": "https://highwayracer2.github.io/contact.html",
+    "name": "Contact Highway Racer 2",
+    "description": "Customer support, game developer submissions, and copyright inquiries for Highway Racer 2.",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "Highway Racer 2 Portal",
+      "url": "https://highwayracer2.github.io",
+      "email": "contact@highwayracer2.github.io",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "customer support",
+          "email": "contact@highwayracer2.github.io",
+          "availableLanguage": ["English", "Vietnamese"]
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "developer submissions",
+          "email": "dev@highwayracer2.github.io"
+        }
+      ]
+    }
+  };
+
+  const script = document.createElement("script");
+  script.type = "application/ld+json";
+  script.text = JSON.stringify(schemaData);
+  document.head.appendChild(script);
+})();

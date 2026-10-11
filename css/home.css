@@ -1,0 +1,285 @@
+/* Dedicated full-width layout for index.html */
+.gd-grid-layout {
+  display: block;
+  width: 100%;
+}
+
+.gd-left-column {
+  width: 100%;
+}
+
+.gd-game-stage {
+  width: 100%;
+  min-height: 580px;
+}
+
+.gd-iframe-container {
+  width: 100%;
+  height: 640px;
+}
+
+@media (max-width: 1024px) {
+  .gd-game-stage {
+    min-height: 500px;
+  }
+  .gd-iframe-container {
+    height: 520px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gd-game-stage {
+    min-height: 380px;
+  }
+  .gd-iframe-container {
+    height: 380px;
+  }
+}
+
+/* ==========================================================================
+   HOME PAGE GAME SECTIONS (NEW GAMES & HOT GAMES)
+   ========================================================================== */
+.gd-home-section {
+  background: #ffffff;
+  border-radius: var(--gd-radius-lg, 20px);
+  padding: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  margin-top: 28px;
+}
+
+.gd-home-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 22px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid #f1f5f9;
+}
+
+.gd-home-section-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.gd-home-section-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.gd-home-section-icon.icon-new {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(5, 150, 105, 0.25) 100%);
+  color: #10b981;
+}
+
+.gd-home-section-icon.icon-hot {
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.15) 0%, rgba(220, 38, 38, 0.25) 100%);
+  color: #ef4444;
+}
+
+.gd-home-section-title {
+  font-family: var(--font-heading);
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--gd-text-main, #1f2937);
+  letter-spacing: -0.3px;
+  margin: 0;
+}
+
+.gd-home-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border-radius: var(--gd-radius-pill, 9999px);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.gd-home-badge-green {
+  background: #ecfdf5;
+  color: #059669;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.gd-home-badge-fire {
+  background: #fef2f2;
+  color: #dc2626;
+  border: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+.gd-home-view-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-heading);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--gd-primary, #5c24e5);
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: var(--gd-radius-pill, 9999px);
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  transition: all 0.25s ease;
+}
+
+.gd-home-view-all:hover {
+  background: var(--gd-primary, #5c24e5);
+  color: #ffffff;
+  border-color: var(--gd-primary, #5c24e5);
+  transform: translateX(3px);
+  box-shadow: 0 4px 12px rgba(92, 36, 229, 0.3);
+}
+
+.gd-home-view-all i {
+  transition: transform 0.25s ease;
+}
+
+.gd-home-view-all:hover i {
+  transform: translateX(3px);
+}
+
+/* ==========================================================================
+   SIDE SKYSCRAPER ADS (160x600)
+   ========================================================================== */
+.gd-layout-with-skyscrapers {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.gd-ad-skyscraper-side {
+  position: sticky;
+  top: 75px;
+  width: 160px;
+  flex-shrink: 0;
+  z-index: 90;
+  margin-top: 18px;
+}
+
+.gd-ad-skyscraper-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  width: 160px;
+}
+
+.gd-ad-slot-160x600 {
+  width: 160px;
+  height: 600px;
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  border: 1.5px dashed #cbd5e1;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gd-ad-slot-160x600:hover {
+  border-color: #94a3b8;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.gd-ad-slot-160x600 ins.adsbygoogle {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  width: 160px;
+  height: 600px;
+}
+
+.gd-layout-with-skyscrapers > .gd-main-wrapper {
+  flex: 0 1 1280px;
+  max-width: 1280px;
+  width: 100%;
+  margin: 18px 0 48px;
+  min-width: 0;
+}
+
+@media (max-width: 1365px) {
+  .gd-ad-skyscraper-side {
+    display: none !important;
+  }
+  .gd-layout-with-skyscrapers > .gd-main-wrapper {
+    margin: 18px auto 48px;
+    max-width: 1280px;
+  }
+}
+
+@media (max-height: 690px) {
+  .gd-ad-skyscraper-side {
+    top: 65px;
+  }
+}
+
+/* ==========================================================================
+   IN-FEED / MID-PAGE RECTANGLE AD BANNER (300x250)
+   ========================================================================== */
+.gd-ad-rect-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 28px 0;
+  box-sizing: border-box;
+}
+
+.gd-ad-rect-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.gd-ad-slot-300x250 {
+  width: 300px;
+  height: 250px;
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  border: 1.5px dashed #cbd5e1;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gd-ad-slot-300x250:hover {
+  border-color: #94a3b8;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.gd-ad-slot-300x250 ins.adsbygoogle {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+}
+

@@ -1,0 +1,19 @@
+(function () {
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://highwayracer2.github.io",
+    "name": "Highway Racer 2 Portal",
+    "description": "Play free online car games, 3D highway racing, and HTML5 browser games with zero downloads.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://highwayracer2.github.io/catelogy/cargame.html?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  };
+
+  const script = document.createElement("script");
+  script.type = "application/ld+json";
+  script.text = JSON.stringify(schemaData);
+  document.head.appendChild(script);
+})();

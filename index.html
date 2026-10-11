@@ -1,780 +1,709 @@
-<!DOCTYPE html>
-<html lang="en-US">
+﻿<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-  <!-- Primary SEO Meta Tags -->
-  <title>Highway Racer 2 - Free Online High-Speed Arcade Racing Game</title>
-  <meta name="title" content="Highway Racer 2 - Free Online High-Speed Arcade Racing Game">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Highway Racer 2 - Play Best Free Online Car & Racing Games Unblocked</title>
   <meta name="description"
-    content="Play Highway Racer 2 online for free! Dodge rush-hour traffic, unleash nitro boost, and drift across neon-lit highways in the ultimate high-speed arcade racer.">
-  <meta name="keywords"
-    content="highway racer 2, racing games, free online car games, traffic racer, arcade driving game, webgl racing, play highway racer 2">
-  <meta name="author" content="Highway Racer 2 Studio">
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    content="Play Highway Racer 2 online for free! Enjoy the best 3D car racing, drift & highway driving games unblocked directly in your browser. 60 FPS, zero downloads!">
   <link rel="canonical" href="https://highwayracer2.github.io/">
+  <link rel="stylesheet" href="./css/font-awesome.pro.css">
+  <link rel="stylesheet" href="./css/gametraffictour.css">
+  <link rel="stylesheet" href="./css/home.css">
+  <link rel="stylesheet" href="./css/skyscraper.css">
+  <link rel="icon" href="./assets/logo.jpg" type="image/png">
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://highwayracer2.github.io/">
-  <meta property="og:title" content="Highway Racer 2 - High-Speed Arcade Racing Game">
-  <meta property="og:description"
-    content="Burn rubber, weave through congested highway traffic, and trigger nitro overdrive in Highway Racer 2. Instant play directly in your browser with zero downloads.">
-  <meta property="og:image" content="https://highwayracer2.github.io/assets/og-image.jpg">
-  <meta property="og:site_name" content="Highway Racer 2">
-  <meta property="og:locale" content="en_US">
-
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://highwayracer2.github.io/">
-  <meta property="twitter:title" content="Highway Racer 2 - Free Online High-Speed Racing Game">
-  <meta property="twitter:description"
-    content="Dodge traffic at breakneck speeds and trigger nitro overdrive in Highway Racer 2. Play free now in your browser!">
-  <meta property="twitter:image" content="https://highwayracer2.github.io/assets/og-image.jpg">
-
-  <!-- Favicon & Mobile Theme -->
-  <meta name="theme-color" content="#07080c">
-  <link rel="icon" type="image/svg+xml"
-    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2300f0ff'><path d='M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.85 7h10.29l1.04 3H5.81l1.04-3zM19 17H5v-4.66l.12-.34h13.77l.11.34V17z'/></svg>">
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Rajdhani:wght@600;700;800;900&display=swap"
-    rel="stylesheet">
-
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
-
-  <!-- Structured Data (JSON-LD) for Google SEO -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebSite",
-        "@id": "https://highwayracer2.github.io/#website",
-        "url": "https://highwayracer2.github.io/",
-        "name": "Highway Racer 2",
-        "description": "Play Highway Racer 2 free online in browser. High-speed highway traffic dodging racing game.",
-        "inLanguage": "en-US"
-      },
-      {
-        "@type": "VideoGame",
-        "@id": "https://highwayracer2.github.io/#game",
-        "name": "Highway Racer 2",
-        "url": "https://highwayracer2.github.io/",
-        "description": "Highway Racer 2 is an adrenaline-fueled 3D arcade car racing game where players pilot high-performance supercars through dense highway traffic with nitro boost and close-call multiplier scoring.",
-        "genre": ["Racing", "Arcade", "Action", "Simulation"],
-        "gamePlatform": ["Web Browser", "Desktop", "Mobile", "Tablet"],
-        "applicationCategory": "Game",
-        "operatingSystem": "Any (HTML5 Canvas & WebGL compatible)",
-        "inLanguage": "en-US",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "ratingCount": "12850",
-          "bestRating": "5",
-          "worstRating": "1"
-        }
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://highwayracer2.github.io/#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Is Highway Racer 2 free to play?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, Highway Racer 2 is 100% free to play directly in modern web browsers without any download, registration, or hidden fees."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How do you activate Nitro Boost in Highway Racer 2?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "On desktop, press the Spacebar or Shift key to ignite Nitro Overdrive. On mobile or touchscreen devices, tap and hold the orange Nitro button on screen."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How do Near-Miss Close Calls work?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Overtaking traffic vehicles at speeds exceeding 120 km/h with minimal lateral clearance awards +500 Close Call bonus points and builds your score multiplier."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I play Highway Racer 2 on mobile devices?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, Highway Racer 2 features dedicated on-screen touch steering and nitro pads, delivering smooth responsive gameplay on iOS, iPadOS, and Android."
-            }
-          }
-        ]
-      },
-      {
-        "@type": "ItemList",
-        "@id": "https://highwayracer2.github.io/#categories",
-        "name": "Highway Racing Game Categories",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Traffic Racing Games"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Drift & Drag Racing"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Police Chase Games"
-          },
-          {
-            "@type": "ListItem",
-            "position": 4,
-            "name": "Supercars & Mega Ramp Stunts"
-          },
-          {
-            "@type": "ListItem",
-            "position": 5,
-            "name": "Highway Moto & Bike Racing"
-          }
-        ]
-      }
-    ]
-  }
-  </script>
+  <!-- SCHEMA.ORG STRUCTURED DATA -->
+  <script src="./js/schema.js"></script>
 </head>
 
 <body>
-  <!-- Header Navigation -->
-  <header class="site-header">
-    <div class="container nav-container">
-      <a href="index.html" class="brand-logo" aria-label="Highway Racer 2 Home">
-        <img src="assets/logo.jpg" alt="Highway Racer 2 Logo" class="brand-img-logo">
-        <div class="brand-text">HIGHWAY<span>RACER 2</span></div>
-      </a>
 
-      <nav aria-label="Main Navigation">
-        <ul class="nav-menu">
-          <li><a href="#play" class="nav-link active">Play Game</a></li>
-          <li><a href="#categories" class="nav-link">Categories</a></li>
-          <li><a href="#features" class="nav-link">Features</a></li>
-          <li><a href="#how-to-play" class="nav-link">How to Play</a></li>
-          <li><a href="#tips" class="nav-link">Pro Tips</a></li>
-          <li><a href="#faq" class="nav-link">FAQ</a></li>
+  <!-- TOP NAVBAR -->
+  <header class="gd-navbar">
+    <div class="gd-nav-container">
+      <div class="gd-nav-left">
+        <a href="./index.html" class="gd-logo">
+          <img src="./images/highway-racer-2.png" alt="highwayracer2" class="gd-logo-img">
+          <span class="gd-logo-text-rgb">Highway Racer 2</span>
+        </a>
+        <ul class="gd-nav-links">
+          <li><a href="./catelogy/newgame.html" class="gd-nav-link"><i class="fas fa-sparkles gd-nav-icon-new"></i> New
+              Games</a></li>
+          <li><a href="./catelogy/hotgame.html" class="gd-nav-link"><i class="fas fa-fire gd-nav-icon-hot"></i> Hot
+              Games</a></li>
+          <li><a href="./catelogy/cargame.html" class="gd-nav-link"><i class="fas fa-car gd-nav-icon-car"></i> Car
+              Games</a></li>
+          <li><a href="./catelogy/action.html" class="gd-nav-link"><i class="fas fa-bolt gd-nav-icon-action"></i>
+              Action</a></li>
+          <li><a href="./catelogy/shooting.html" class="gd-nav-link"><i
+                class="fas fa-crosshairs gd-nav-icon-shooting"></i> Shooting</a></li>
+          <li><a href="./catelogy/puzzle.html" class="gd-nav-link"><i
+                class="fas fa-puzzle-piece gd-nav-icon-puzzle"></i> Puzzle</a></li>
+          <li><a href="./catelogy/sportsgame.html" class="gd-nav-link"><i class="fas fa-futbol gd-nav-icon-sports"></i>
+              Sports</a></li>
         </ul>
-      </nav>
-
-      <a href="#play" class="nav-cta-btn">
-        <span>Race Now</span>
-      </a>
+      </div>
     </div>
   </header>
+  <!-- TOP LEADERBOARD AD (728x90) -->
+  <div class="gd-ad-leaderboard-wrapper">
+    <div class="gd-ad-leaderboard-container">
+      <span class="gd-ad-label">ADVERTISEMENT</span>
+      <div class="gd-ad-slot-728x90"></div>
+    </div>
+  </div>
 
-  <main>
-    <!-- Hero Section -->
-    <section class="hero-section">
-      <div class="container">
-        <div class="hero-badge">⚡ Adrenaline-Fueled Traffic Racing</div>
-        <h1 class="hero-title">
-          Master the Asphalt in <br>
-          <span class="highlight-cyan">Highway Racer 2</span>
-        </h1>
-        <p class="hero-subtitle">
-          Weave through congested rush-hour traffic at breakneck speeds, ignite your nitro overdrive, and claim the
-          asphalt throne in this pure arcade racing experience.
-        </p>
+  <!-- LAYOUT WITH 160x600 SIDE SKYSCRAPERS -->
+  <div class="gd-layout-with-skyscrapers">
 
-        <!-- Quick Stats -->
-        <div class="quick-stats">
-          <div class="stat-item">
-            <div class="stat-icon">🏎️</div>
-            <div>
-              <div class="stat-number">320+</div>
-              <div class="stat-label">KM/H Top Speed</div>
-            </div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-icon">🔥</div>
-            <div>
-              <div class="stat-number">4-Lane</div>
-              <div class="stat-label">Endless Highway</div>
-            </div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-icon">🏆</div>
-            <div>
-              <div class="stat-number" id="statBestScore">0</div>
-              <div class="stat-label">Your Best Record</div>
-            </div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-icon">⚡</div>
-            <div>
-              <div class="stat-number">60 FPS</div>
-              <div class="stat-label">Smooth Gameplay</div>
-            </div>
-          </div>
-        </div>
+    <!-- LEFT SKYSCRAPER AD (160x600) -->
+    <aside class="gd-ad-skyscraper-side gd-ad-skyscraper-left" aria-label="Left Side Advertisement">
+      <div class="gd-ad-skyscraper-container">
+        <span class="gd-ad-label">ADVERTISEMENT</span>
+        <div class="gd-ad-slot-160x600"></div>
       </div>
-    </section>
+    </aside>
 
-    <!-- Game Arena Section -->
-    <section class="game-arena-wrapper" id="play" aria-label="Interactive Game Arena">
-      <div class="container">
-        <div class="game-window">
-          <!-- Floating Exit Fullscreen Button -->
-          <button class="fullscreen-exit-btn" id="exitFullscreenBtn" aria-label="Exit Fullscreen"
-            title="Exit Fullscreen">
-            <svg viewBox="0 0 24 24">
-              <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z" />
-            </svg>
-            <span>Exit Fullscreen</span>
-          </button>
+    <!-- MAIN WRAPPER -->
+    <main class="gd-main-wrapper">
+      <div class="gd-grid-layout">
 
-          <!-- Game Header Toolbar -->
-          <div class="game-toolbar">
-            <div class="game-status-indicator">
-              <span class="status-dot"></span>
-              <span class="game-title-tag">Highway Racer 2 &bull; Arcade Mode</span>
-            </div>
+        <!-- LEFT COLUMN -->
+        <div class="gd-left-column">
 
-            <div class="game-actions">
-              <button class="tool-btn" id="fullscreenBtn" aria-label="Toggle Fullscreen">
-                <svg viewBox="0 0 24 24">
-                  <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" />
-                </svg>
-                <span>Fullscreen</span>
+          <!-- HERO GAME STAGE -->
+          <div class="gd-game-stage">
+            <div class="gd-stage-bg-pattern"></div>
+
+            <!-- COVER CARD OVERLAY -->
+            <div class="gd-game-cover-card" id="gd-cover-card">
+              <img src="/images/highway-racer-2.png" alt="highwayracer2 Logo" class="gd-game-icon-lg">
+              <h1 class="gd-game-title-lg">highwayracer2</h1>
+              <button class="gd-btn-play-now" onclick="playGame()">
+                <i class="fas fa-play"></i> Play Now
               </button>
             </div>
-          </div>
 
-          <!-- Game Iframe Stage -->
-          <div class="canvas-container">
-            <iframe id="gameFrame" class="game-iframe"
-              src="https://highwayracer2.github.io/game-highwayracer2/highway-racer-2/" title="Highway Racer 2"
-              frameborder="0" scrolling="no" allow="autoplay; fullscreen; gamepad; focus-without-user-activation"
-              allowfullscreen>
-            </iframe>
-          </div>
-
-          <!-- Mobile Virtual Touch Pad -->
-          <div class="touch-controls">
-            <div class="touch-grid">
-              <div class="touch-btn-cluster">
-                <button class="touch-btn" id="touchLeft" aria-label="Steer Left">◀<span>Left</span></button>
-                <button class="touch-btn" id="touchRight" aria-label="Steer Right">▶<span>Right</span></button>
-              </div>
-              <div class="touch-btn-cluster">
-                <button class="touch-btn" id="touchBrake" aria-label="Brake">▼<span>Brake</span></button>
-                <button class="touch-btn btn-nitro" id="touchNitro"
-                  aria-label="Nitro Boost">⚡<span>Nitro</span></button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Footer Controls Hint Bar -->
-          <div class="game-footer-bar">
-            <div class="keyboard-hints">
-              <div class="hint-group">
-                <span class="kbd-badge">A</span>
-                <span class="kbd-badge">D</span> or
-                <span class="kbd-badge">←</span>
-                <span class="kbd-badge">→</span>
-                <span>Steer</span>
-              </div>
-              <div class="hint-group">
-                <span class="kbd-badge">SPACE</span> or
-                <span class="kbd-badge">SHIFT</span>
-                <span>Nitro Boost</span>
-              </div>
-              <div class="hint-group">
-                <span class="kbd-badge">S</span> or
-                <span class="kbd-badge">↓</span>
-                <span>Brake</span>
-              </div>
-              <div class="hint-group">
-                <span class="kbd-badge">P</span>
-                <span>Pause</span>
-              </div>
-            </div>
-            <div class="stat-label">Instant Browser Play &bull; No Download Required</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Game Categories & Showcase Section -->
-    <section class="content-section" id="categories">
-      <div class="container">
-        <div class="section-head">
-          <span class="section-tag">Game Library</span>
-          <h2 class="section-title">Explore Game Categories</h2>
-          <p class="section-desc">
-            Discover adrenaline-pumping racing titles across traffic weaving, drift challenges, police pursuits, and
-            hypercar simulations.
-          </p>
-        </div>
-
-        <!-- Filter Tabs -->
-        <div class="category-filter-nav">
-          <button class="category-pill active" data-filter="all">
-            <span class="pill-icon">🔥</span> All Categories
-          </button>
-          <button class="category-pill" data-filter="traffic">
-            <span class="pill-icon">🏎️</span> Traffic Racing
-          </button>
-          <button class="category-pill" data-filter="drift">
-            <span class="pill-icon">⚡</span> Drift & Drag
-          </button>
-          <button class="category-pill" data-filter="police">
-            <span class="pill-icon">🚓</span> Police Chase
-          </button>
-          <button class="category-pill" data-filter="supercars">
-            <span class="pill-icon">🚀</span> Supercars & Stunts
-          </button>
-          <button class="category-pill" data-filter="moto">
-            <span class="pill-icon">🏍️</span> Moto Racing
-          </button>
-        </div>
-
-        <!-- Games Grid -->
-        <div class="category-games-grid" id="categoryGamesGrid">
-          <!-- Card 1 -->
-          <article class="category-card" data-cat="traffic">
-            <div class="category-card-banner">
-              <img src="assets/game-highway-racer-2.jpg" alt="Highway Racer 2" class="category-card-img" loading="lazy">
-              <span class="card-badge-top badge-featured">Featured #1</span>
-              <span class="card-rating-top">★ 4.9</span>
-            </div>
-            <div class="category-card-body">
-              <span class="category-card-genre">Traffic Racing</span>
-              <h3 class="category-card-title">Highway Racer 2</h3>
-              <p class="category-card-desc">The flagship endless highway racer. Weave through rush-hour traffic, trigger
-                nitro, and score close-call bonuses.</p>
-              <div class="category-card-tags">
-                <span class="card-tag">#Endless</span>
-                <span class="card-tag">#Nitro</span>
-                <span class="card-tag">#Arcade</span>
-              </div>
-              <a href="#play" class="category-play-btn">Play Instantly</a>
-            </div>
-          </article>
-
-          <!-- Card 2 -->
-          <article class="category-card" data-cat="drift">
-            <div class="category-card-banner">
-              <img src="assets/game-tokyo-drift.jpg" alt="Tokyo Midnight Drift" class="category-card-img"
-                loading="lazy">
-              <span class="card-badge-top badge-hot">Hot</span>
-              <span class="card-rating-top">★ 4.8</span>
-            </div>
-            <div class="category-card-body">
-              <span class="category-card-genre">Drift & Drag</span>
-              <h3 class="category-card-title">Tokyo Midnight Drift</h3>
-              <p class="category-card-desc">Slide through rain-soaked mountain passes and neon harbor tracks with
-                precision throttle tuning.</p>
-              <div class="category-card-tags">
-                <span class="card-tag">#Drifting</span>
-                <span class="card-tag">#Tuning</span>
-                <span class="card-tag">#NightCity</span>
-              </div>
-              <a href="/game/tokyo-midnight-drift.html" class="category-play-btn">Play Instantly</a>
-            </div>
-          </article>
-
-          <!-- Card 3 -->
-          <article class="category-card" data-cat="police">
-            <div class="category-card-banner">
-              <img src="assets/game-cop-pursuit.jpg" alt="Highway Cop Pursuit" class="category-card-img" loading="lazy">
-              <span class="card-badge-top badge-hot">Trending</span>
-              <span class="card-rating-top">★ 4.7</span>
-            </div>
-            <div class="category-card-body">
-              <span class="category-card-genre">Police Chase</span>
-              <h3 class="category-card-title">Highway Cop Pursuit</h3>
-              <p class="category-card-desc">Outrun relentless police interceptors, dodge road spikes, and survive 5-star
-                wanted levels on open highways.</p>
-              <div class="category-card-tags">
-                <span class="card-tag">#Pursuit</span>
-                <span class="card-tag">#Action</span>
-                <span class="card-tag">#Wanted</span>
-              </div>
-              <a href="highway-cop-pursuit.html" class="category-play-btn">Play Instantly</a>
-            </div>
-          </article>
-
-          <!-- Card 4 -->
-          <article class="category-card" data-cat="supercars">
-            <div class="category-card-banner">
-              <img src="assets/game-mega-ramp.jpg" alt="Hypercar Mega Ramp 3D" class="category-card-img" loading="lazy">
-              <span class="card-badge-top">New</span>
-              <span class="card-rating-top">★ 4.9</span>
-            </div>
-            <div class="category-card-body">
-              <span class="category-card-genre">Supercars & Stunts</span>
-              <h3 class="category-card-title">Hypercar Mega Ramp 3D</h3>
-              <p class="category-card-desc">Launch multi-million dollar hypercars off sky-high ramps, loop-de-loops, and
-                mid-air obstacle courses.</p>
-              <div class="category-card-tags">
-                <span class="card-tag">#MegaRamp</span>
-                <span class="card-tag">#Stunts</span>
-                <span class="card-tag">#Hypercars</span>
-              </div>
-              <a href="hypercar-mega-ramp.html" class="category-play-btn">Play Instantly</a>
-            </div>
-          </article>
-
-          <!-- Card 5 -->
-          <article class="category-card" data-cat="moto">
-            <div class="category-card-banner">
-              <img src="assets/game-moto-rush.jpg" alt="Highway Moto Rush" class="category-card-img" loading="lazy">
-              <span class="card-badge-top">Popular</span>
-              <span class="card-rating-top">★ 4.8</span>
-            </div>
-            <div class="category-card-body">
-              <span class="category-card-genre">Moto Racing</span>
-              <h3 class="category-card-title">Highway Moto Rush</h3>
-              <p class="category-card-desc">Ride high-speed superbikes on congested freeways. Slalom between trucks with
-                high-risk lane splitting.</p>
-              <div class="category-card-tags">
-                <span class="card-tag">#Superbike</span>
-                <span class="card-tag">#Traffic</span>
-                <span class="card-tag">#Moto</span>
-              </div>
-              <a href="highway-moto-rush.html" class="category-play-btn">Play Instantly</a>
-            </div>
-          </article>
-
-          <!-- Card 6 -->
-          <article class="category-card" data-cat="traffic">
-            <div class="category-card-banner">
-              <img src="assets/game-asphalt-rush.jpg" alt="Asphalt Rush Horizon" class="category-card-img"
-                loading="lazy">
-              <span class="card-badge-top">Classic</span>
-              <span class="card-rating-top">★ 4.7</span>
-            </div>
-            <div class="category-card-body">
-              <span class="category-card-genre">Traffic Racing</span>
-              <h3 class="category-card-title">Asphalt Rush Horizon</h3>
-              <p class="category-card-desc">Endless sunset drives across coastal bridges and desert expressways with
-                dynamic daytime cycles.</p>
-              <div class="category-card-tags">
-                <span class="card-tag">#Cruising</span>
-                <span class="card-tag">#Sunset</span>
-                <span class="card-tag">#Endless</span>
-              </div>
-              <a href="#play" class="category-play-btn">Play Instantly</a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- Game Description & Features Section -->
-    <section class="content-section" id="features">
-      <div class="container">
-        <div class="section-head">
-          <span class="section-tag">Game Overview</span>
-          <h2 class="section-title">High-Octane Arcade Features</h2>
-          <p class="section-desc">
-            Highway Racer 2 pushes speed to the absolute limit. Engineered with tight handling mechanics and high-risk
-            near-miss rewards, every split second tests your reflexes.
-          </p>
-        </div>
-
-        <div class="features-grid">
-          <article class="feature-card">
-            <div class="feature-icon-box">⚡</div>
-            <h3 class="feature-title">High-Speed Traffic Weaving</h3>
-            <p class="feature-desc">
-              Thread the needle between semis, speeding sedans, and unpredictable SUVs. The tighter your overtakes, the
-              bigger your score multiplier grows.
-            </p>
-          </article>
-
-          <article class="feature-card">
-            <div class="feature-icon-box">🔥</div>
-            <h3 class="feature-title">Nitro Overdrive System</h3>
-            <p class="feature-desc">
-              Trigger twin-exhaust nitro burners to shatter past 300 km/h. Replenish your fuel tanks on the asphalt to
-              sustain prolonged high-velocity bursts.
-            </p>
-          </article>
-
-          <article class="feature-card">
-            <div class="feature-icon-box">🎯</div>
-            <h3 class="feature-title">Close-Call Scoring</h3>
-            <p class="feature-desc">
-              Rack up 500 bonus points for every millimeter-close overtake at full throttle. Risk equals reward in true
-              arcade racing fashion.
-            </p>
-          </article>
-
-          <article class="feature-card">
-            <div class="feature-icon-box">🎧</div>
-            <h3 class="feature-title">Synthesized Web Audio</h3>
-            <p class="feature-desc">
-              Experience responsive engine roar, screeching rubber brake friction, and nitro blasts synthesized in
-              real-time with zero audio loading delay.
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- How to Play & Controls -->
-    <section class="content-section" id="how-to-play">
-      <div class="container">
-        <div class="section-head">
-          <span class="section-tag">Driver's Manual</span>
-          <h2 class="section-title">How to Play & Controls</h2>
-          <p class="section-desc">
-            Master your supercar's physics and dominate the multi-lane expressway with responsive controls on both PC
-            and mobile devices.
-          </p>
-        </div>
-
-        <div class="guide-layout">
-          <div class="controls-showcase">
-            <div class="control-card">
-              <div class="control-keys">
-                <span class="key-cap">A</span>
-                <span class="key-cap">D</span>
-                <span class="key-cap">←</span>
-                <span class="key-cap">→</span>
-              </div>
-              <div class="control-card-title">Steer Left & Right</div>
-              <p class="control-card-desc">Navigate laterally across four high-traffic lanes to slip between civilian
-                vehicles.</p>
+            <!-- IFRAME CONTAINER -->
+            <div class="gd-iframe-container" id="gd-iframe-container">
+              <iframe id="game-area" src="https://highwayracer2.github.io/game-highwayracer2/highway-racer-2/"
+                title="highwayracer2 Game" allowfullscreen scrolling="no"></iframe>
             </div>
 
-            <div class="control-card">
-              <div class="control-keys">
-                <span class="key-cap">SPACE</span>
-                <span class="key-cap">SHIFT</span>
-              </div>
-              <div class="control-card-title">Nitro Boost</div>
-              <p class="control-card-desc">Inject nitrous oxide to hit peak terminal velocity and multiply your distance
-                points.</p>
-            </div>
-
-            <div class="control-card">
-              <div class="control-keys">
-                <span class="key-cap">S</span>
-                <span class="key-cap">↓</span>
-              </div>
-              <div class="control-card-title">Emergency Brake</div>
-              <p class="control-card-desc">Drop speed rapidly to prevent deadly collisions when highway lanes box you
-                in.</p>
-            </div>
-
-            <div class="control-card">
-              <div class="control-keys">
-                <span class="key-cap">P</span>
-              </div>
-              <div class="control-card-title">Pause Game</div>
-              <p class="control-card-desc">Instantly freeze the racing action to catch your breath or adjust audio
-                preferences.</p>
-            </div>
-          </div>
-
-          <div class="tips-showcase" id="tips">
-            <ul class="tips-list">
-              <li class="tip-item">
-                <div class="tip-badge">01</div>
-                <div class="tip-text">
-                  <h4>Harvest Close-Call Multipliers</h4>
-                  <p>Passing vehicles within inches at over 120 km/h triggers instant 500-point bonuses. Stack
-                    consecutive close calls to climb the global ranks.</p>
-                </div>
-              </li>
-              <li class="tip-item">
-                <div class="tip-badge">02</div>
-                <div class="tip-text">
-                  <h4>Anticipate Traffic Blind Spots</h4>
-                  <p>Heavy trucks and SUVs take up more lane width. Scan two car lengths ahead to plot escape vectors
-                    before lanes converge.</p>
-                </div>
-              </li>
-              <li class="tip-item">
-                <div class="tip-badge">03</div>
-                <div class="tip-text">
-                  <h4>Snatch Nitro Canisters</h4>
-                  <p>Spot glowing cyan cylinders on the asphalt. Gathering canisters immediately refills 45% of your
-                    overdrive reservoir.</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Game Specifications Table -->
-    <section class="content-section">
-      <div class="container">
-        <div class="section-head">
-          <span class="section-tag">Specifications</span>
-          <h2 class="section-title">Technical Overview</h2>
-          <p class="section-desc">Engineered for seamless cross-platform browser performance.</p>
-        </div>
-
-        <div class="specs-wrapper">
-          <table class="specs-table">
-            <tbody>
-              <tr>
-                <th>Game Title</th>
-                <td>Highway Racer 2</td>
-              </tr>
-              <tr>
-                <th>Genre</th>
-                <td>Endless Arcade Racing, Traffic Dodging, Speed Simulation</td>
-              </tr>
-              <tr>
-                <th>Platform Compatibility</th>
-                <td>Web Browsers (Chrome, Firefox, Safari, Edge, Opera) on Windows, macOS, Linux, iOS & Android</td>
-              </tr>
-              <tr>
-                <th>Rendering Engine</th>
-                <td>Hardware-Accelerated HTML5 Canvas with High-DPI Retina Support</td>
-              </tr>
-              <tr>
-                <th>Audio Technology</th>
-                <td>Real-time Web Audio API Polyphonic Synthesizer</td>
-              </tr>
-              <tr>
-                <th>Cost & Accessibility</th>
-                <td>100% Free-to-Play, Instant Launch, Zero Installation</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <!-- FAQ Accordion -->
-    <section class="content-section" id="faq">
-      <div class="container">
-        <div class="section-head">
-          <span class="section-tag">Got Questions?</span>
-          <h2 class="section-title">Frequently Asked Questions</h2>
-          <p class="section-desc">Everything you need to know about playing Highway Racer 2 online.</p>
-        </div>
-
-        <div class="faq-container">
-          <div class="faq-item active">
-            <button class="faq-question" aria-expanded="true">
-              <span>Is Highway Racer 2 free to play?</span>
-              <svg class="faq-chevron" viewBox="0 0 24 24">
-                <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" />
-              </svg>
+            <!-- FLOATING FULLSCREEN BUTTON -->
+            <button class="gd-btn-floating-fullscreen" onclick="openFullscreen()" title="Fullscreen"
+              aria-label="Fullscreen">
+              <i class="fas fa-expand"></i>
             </button>
-            <div class="faq-answer">
-              <p>Yes! Highway Racer 2 is completely free to play directly in your web browser. There are no downloads,
-                subscriptions, or pay-to-win mechanics. Just load the page and hit the gas.</p>
-            </div>
           </div>
 
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span>How do I get higher scores in Highway Racer 2?</span>
-              <svg class="faq-chevron" viewBox="0 0 24 24">
-                <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" />
-              </svg>
-            </button>
-            <div class="faq-answer">
-              <p>Scores are earned through continuous distance, high speed, and risky maneuvers. Skim closely past
-                civilian traffic to earn +500 Close Call awards, collect gold tokens (+150 pts), and maintain Nitro
-                overdrive to double your score accrual rate.</p>
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span>Can I play Highway Racer 2 on my mobile phone?</span>
-              <svg class="faq-chevron" viewBox="0 0 24 24">
-                <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" />
-              </svg>
-            </button>
-            <div class="faq-answer">
-              <p>Absolutely! The game detects touch-enabled mobile devices and tablets, providing a responsive virtual
-                thumbpad for precision steering, braking, and nitro activation.</p>
-            </div>
-          </div>
-
-          <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-              <span>Is my high score saved when I close the browser?</span>
-              <svg class="faq-chevron" viewBox="0 0 24 24">
-                <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" />
-              </svg>
-            </button>
-            <div class="faq-answer">
-              <p>Yes, your best personal record is automatically saved to your browser's local storage. Your top score
-                will remain ready to be beaten whenever you return.</p>
-            </div>
-          </div>
         </div>
 
-        <!-- Call to Action Banner -->
-        <div class="cta-banner">
-          <h3>Ready to Test Your Reflexes?</h3>
-          <p>The rush-hour highway awaits. Hit the gas, trigger nitro, and push your supercar to the absolute limit.</p>
-          <a href="#play" class="nav-cta-btn">
-            <span>Play Highway Racer 2 Now</span>
+
+      </div>
+
+      <!-- NEW GAMES SECTION (15 GAMES) -->
+      <section class="gd-home-section">
+        <div class="gd-home-section-header">
+          <div class="gd-home-section-left">
+            <div class="gd-home-section-icon icon-new">
+              <i class="fas fa-sparkles"></i>
+            </div>
+            <h2 class="gd-home-section-title">New Games</h2>
+          </div>
+          <a href="./catelogy/newgame.html" class="gd-home-view-all">
+            <span>Explore All</span>
+            <i class="fas fa-arrow-right"></i>
           </a>
         </div>
-      </div>
-    </section>
-  </main>
 
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-top">
-        <a href="index.html" class="brand-logo" aria-label="Highway Racer 2 Home">
-          <img src="assets/logo.jpg" alt="Highway Racer 2 Logo" class="brand-img-logo">
-          <div class="brand-text">HIGHWAY<span>RACER 2</span></div>
+        <div class="gd-catalog-grid">
+          <!-- 1. Car -->
+          <a href="./game/drive-mad.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-new">NEW</span>
+              <img src="./images/drive-mad.png" alt="Drive Mad" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Drive Mad</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 2. Shooting -->
+          <a href="./shooting/time-shooter-3-swat.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-new">NEW</span>
+              <img src="./images/time-shooter-3-swat.png" alt="Time Shooter 3 SWAT" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Time Shooter 3 SWAT</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 3. Puzzle -->
+          <a href="./puzzle/level-devil.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-new">NEW</span>
+              <img src="./images/level-devil.png" alt="Level Devil" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Level Devil</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 4. Sports -->
+          <a href="./sportsgame/football-legends-2026.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-new">NEW</span>
+              <img src="./images/football-legends-2026.png" alt="Football Legends 2026" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Football Legends 2026</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 5. Action -->
+          <a href="./action/vex-9.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-new">NEW</span>
+              <img src="./images/vex-9.png" alt="Vex 9" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Vex 9</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 6. Puzzle -->
+          <a href="./puzzle/merge-fruits.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-new">NEW</span>
+              <img src="./images/merge-fruits.png" alt="Merge Fruits" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Merge Fruits</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 7. Car -->
+          <a href="./game/stunt-biker-3d.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-new">NEW</span>
+              <img src="./images/stunt-biker-3d.png" alt="Stunt Biker 3D" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Stunt Biker 3D</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 8. Shooting -->
+          <a href="./shooting/you-vs-100-skibidi-toilets.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-new">NEW</span>
+              <img src="./images/you-vs-100-skibidi-toilets.png" alt="You vs 100 Skibidi Toilets"
+                class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">You vs 100 Skibidi Toilets</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 9. Sports -->
+          <a href="./sportsgame/basketball-stars-2026.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-new">NEW</span>
+              <img src="./images/basketball-stars-2026.png" alt="Basketball Stars 2026" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Basketball Stars 2026</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 10. Action -->
+          <a href="./action/vex-x3m-3.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-new">NEW</span>
+              <img src="./images/vex-x3m-3.png" alt="Vex X3M 3" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Vex X3M 3</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 11. Sports -->
+          <a href="./sportsgame/penalty-shooters-x.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-new">NEW</span>
+              <img src="./images/penalty-shooters-x.png" alt="Penalty Shooters X" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Penalty Shooters X</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 12. Shooting -->
+          <a href="./shooting/zombies-shooter-part-2.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-new">NEW</span>
+              <img src="./images/zombies-shooter-part-2.png" alt="Zombies Shooter Part 2" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Zombies Shooter Part 2</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 13. Puzzle -->
+          <a href="./puzzle/melon-playground.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-new">NEW</span>
+              <img src="./images/melon-playground.png" alt="Melon Playground" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Melon Playground</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 14. Car -->
+          <a href="./game/traffic-mania.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-new">NEW</span>
+              <img src="./images/traffic-mania.png" alt="Traffic Mania" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Traffic Mania</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 15. Action -->
+          <a href="./action/bomb-it-7.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-new">NEW</span>
+              <img src="./images/bomb-it-7.png" alt="Bomb It 7" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Bomb It 7</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- MID-PAGE AD BANNER (300x250) -->
+      <div class="gd-ad-rect-wrapper">
+        <div class="gd-ad-rect-container">
+          <span class="gd-ad-label">ADVERTISEMENT</span>
+          <div class="gd-ad-slot-300x250"></div>
+        </div>
+      </div>
+
+      <!-- HOT GAMES SECTION (15 GAMES) -->
+      <section class="gd-home-section">
+        <div class="gd-home-section-header">
+          <div class="gd-home-section-left">
+            <div class="gd-home-section-icon icon-hot">
+              <i class="fas fa-fire-alt"></i>
+            </div>
+            <h2 class="gd-home-section-title">Hot Games</h2>
+            <span class="gd-home-badge gd-home-badge-fire"><i class="fas fa-fire"></i> 15 Games</span>
+          </div>
+          <a href="./catelogy/hotgame.html" class="gd-home-view-all">
+            <span>Explore All</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="gd-catalog-grid">
+          <!-- 1. Car -->
+          <a href="./game/traffic-tour.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-hot">HOT</span>
+              <img src="./images/traffictour.avif" alt="Traffic Tour" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Traffic Tour</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 2. Shooting -->
+          <a href="./shooting/time-shooter-2.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-hot">HOT</span>
+              <img src="./images/time-shooter-2.png" alt="Time Shooter 2" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Time Shooter 2</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 3. Puzzle -->
+          <a href="./puzzle/2048.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-hot">HOT</span>
+              <img src="./images/2048.png" alt="2048" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">2048</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 4. Sports -->
+          <a href="./sportsgame/retro-bowl.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-hot">HOT</span>
+              <img src="./images/retro-bowl.png" alt="Retro Bowl" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Retro Bowl</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 5. Action -->
+          <a href="./action/vex-8.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-hot">HOT</span>
+              <img src="./images/vex-8.png" alt="Vex 8" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Vex 8</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 6. Shooting -->
+          <a href="./shooting/rooftop-snipers.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-hot">HOT</span>
+              <img src="./images/rooftop-snipers.png" alt="Rooftop Snipers" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Rooftop Snipers</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 7. Car -->
+          <a href="./game/burnin-rubber-5-xs.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-hot">HOT</span>
+              <img src="./images/burnin-rubber-5-xs.png" alt="Burnin Rubber 5 XS" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Burnin Rubber 5 XS</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 8. Sports -->
+          <a href="./sportsgame/basketball-stars.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-hot">HOT</span>
+              <img src="./images/basketball-stars.png" alt="Basketball Stars" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Basketball Stars</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 9. Puzzle -->
+          <a href="./puzzle/wordle-unlimited.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-hot">HOT</span>
+              <img src="./images/wordle-unlimited.png" alt="Wordle Unlimited" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Wordle Unlimited</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 10. Action -->
+          <a href="./action/fireboy-and-watergirl-1-forest-temple.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-hot">HOT</span>
+              <img src="./images/fireboy-and-watergirl-1-forest-temple.png" alt="Fireboy and Watergirl 1"
+                class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Fireboy and Watergirl 1</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 11. Car -->
+          <a href="./game/crazy-cars.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-hot">HOT</span>
+              <img src="./images/crazy-cars.png" alt="Crazy Cars" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Crazy Cars</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 12. Sports -->
+          <a href="./sportsgame/boxing-random.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-hot">HOT</span>
+              <img src="./images/boxing-random.png" alt="Boxing Random" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Boxing Random</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 13. Shooting -->
+          <a href="./shooting/raft-wars-2.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-hot">HOT</span>
+              <img src="./images/raft-wars-2.png" alt="Raft Wars 2" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Raft Wars 2</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 14. Puzzle -->
+          <a href="./puzzle/magic-tiles.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-hot">HOT</span>
+              <img src="./images/magic-tiles.png" alt="Magic Tiles" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Magic Tiles</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+
+          <!-- 15. Action -->
+          <a href="./action/vex-x3m.html" class="gd-catalog-card">
+            <div class="gd-catalog-thumb-wrap">
+              <span class="gd-catalog-badge gd-badge-hot">HOT</span>
+              <img src="./images/vex-x3m.png" alt="Vex X3M" class="gd-catalog-thumb">
+            </div>
+            <div class="gd-catalog-content">
+              <h3 class="gd-catalog-title">Vex X3M</h3>
+              <div class="gd-catalog-play-btn"><i class="fas fa-play"></i> Play Now</div>
+            </div>
+          </a>
+        </div>
+      </section>
+      <!-- FULL WIDTH EXPANDED CARDS SECTION -->
+      <div class="gd-full-width-section" style="margin-top: 24px; display: flex; flex-direction: column; gap: 20px;">
+
+        <!-- DETAILED PORTAL DESCRIPTION & SEO HUB -->
+        <article class="gd-card">
+          <h2 class="gd-section-title"><i class="fas fa-globe" style="color:var(--gd-primary);"></i> ABOUT HIGHWAY RACER 2 PORTAL - THE ULTIMATE FREE ONLINE GAMING PLATFORM</h2>
+          <div class="gd-text-content" style="display: flex; flex-direction: column; gap: 16px;">
+            <p>
+              Highway Racer 2 is an adrenaline-fueled 3D highway racing game and endless arcade driving simulator that takes you to another level of smooth simulations and high-quality graphics. Designed for speed lovers and traffic racing fans, Highway Racer 2 offers an exhilarating highway driving experience through real-time traffic, featuring high-speed supercars, realistic vehicle cockpits, dynamic weather, and intense game modes!
+            </p>
+            <p>
+              Welcome to <strong>Highway Racer 2 Portal</strong> (<a href="https://highwayracer2.github.io"
+                style="color:var(--gd-primary); font-weight:700;">highwayracer2.github.io</a>), your premier global
+              destination for high-octane <strong>free online car games</strong>, 3D highway racing simulators, drift
+              adventures, and instant-play HTML5 arcade games. We deliver seamless, console-quality gameplay directly in
+              your web browser with <strong>zero downloads, zero installations, and zero hidden subscriptions</strong>.
+            </p>
+            <p>
+              Whether you want to push supercars to their limits on infinite highway lanes in the flagship <strong>Highway Racer 2</strong>, battle rivals in combat racing tournaments, or solve clever vehicle puzzles, our portal
+              is
+              engineered to provide lightning-fast <strong>60 FPS performance</strong> on school Chromebooks, desktop
+              PCs,
+              Macs, and mobile touchscreen devices alike.
+            </p>
+
+            <h3
+              style="font-family:var(--font-heading); font-size:17px; font-weight:800; color:#1f2937; margin-top:8px;">
+              <i class="fas fa-trophy" style="color:#f59e0b;"></i> Why Millions of Players Choose Highway Racer 2 Portal
+            </h3>
+            <ul style="padding-left: 20px; display: flex; flex-direction: column; gap: 8px;">
+              <li><strong>Instant In-Browser Play:</strong> Click and play instantly. No heavy launchers, no storage
+                downloads, and no waiting times.</li>
+              <li><strong>Silky Smooth 60 FPS Engine:</strong> Built with cutting-edge WebGL 2.0 and WebAssembly
+                technology for ultra-responsive physics and fluid frame rates.</li>
+              <li><strong>100% Free & Unblocked:</strong> Enjoy unblocked gaming accessible across school, college,
+                office, and home Wi-Fi networks worldwide.</li>
+              <li><strong>Cross-Platform Universal Support:</strong> Fully optimized for Google Chrome, Apple Safari,
+                Mozilla Firefox, Microsoft Edge, iOS devices, and Android smartphones.</li>
+              <li><strong>Vetted Safe & Family-Friendly:</strong> 100% clean code audited for safety, free of malware or
+                intrusive redirects, and fully compliant with COPPA and Google E-E-A-T standards.</li>
+            </ul>
+
+            <h3
+              style="font-family:var(--font-heading); font-size:17px; font-weight:800; color:#1f2937; margin-top:8px;">
+              <i class="fas fa-th-large" style="color:var(--gd-primary);"></i> Explore Our Diverse Free Online Game
+              Categories
+            </h3>
+            <p>
+              Our gaming library is hand-curated and continually updated with top-rated titles across 7 distinct
+              categories:
+            </p>
+            <ul style="padding-left: 20px; display: flex; flex-direction: column; gap: 8px;">
+              <li>
+                <strong><a href="./catelogy/cargame.html" style="color:#3b82f6; font-weight:700;"><i
+                      class="fas fa-car"></i> Car Games & Racing Simulators:</a></strong>
+                Experience realistic cockpit steering, high-speed highway overtaking, city drifting, and truck
+                navigation
+                in titles
+                like <em>Traffic Tour</em>, <em>Drive Mad</em>, <em>Burnin Rubber 5 XS</em>, <em>Crazy Cars</em>, and
+                <em>Traffic Mania</em>.
+              </li>
+              <li>
+                <strong><a href="./catelogy/action.html" style="color:#f59e0b; font-weight:700;"><i
+                      class="fas fa-bolt"></i> Action & Adventure Games:</a></strong>
+                Push your reflexes to the limit with precision platforming parkour, deadly obstacle courses, and
+                thrilling
+                puzzle quests in
+                <em>Vex 8</em>, <em>Vex 9</em>, <em>Vex X3M</em>, <em>Bomb It 7</em>, and <em>Fireboy and Watergirl 1:
+                  Forest Temple</em>.
+              </li>
+              <li>
+                <strong><a href="./catelogy/shooting.html" style="color:#ec4899; font-weight:700;"><i
+                      class="fas fa-crosshairs"></i> Shooting & Combat Arenas:</a></strong>
+                Engage in tactical firefights, slow-motion bullet time combat, rooftop sniper duels, and viral survival
+                battles in
+                <em>Time Shooter 2</em>, <em>Time Shooter 3 SWAT</em>, <em>Rooftop Snipers</em>, <em>You vs 100 Skibidi
+                  Toilets</em>, and <em>FPS Assault Shooter</em>.
+              </li>
+              <li>
+                <strong><a href="./catelogy/puzzle.html" style="color:#8b5cf6; font-weight:700;"><i
+                      class="fas fa-puzzle-piece"></i> Puzzle & Brain Teasers:</a></strong>
+                Exercise your mind with addictive tile merging, deceptive platforming traps, physics sandbox worlds, and
+                word deduction in
+                <em>2048</em>, <em>Level Devil</em>, <em>Melon Playground</em>, <em>Merge Fruits</em>, and <em>Wordle
+                  Unlimited</em>.
+              </li>
+              <li>
+                <strong><a href="./catelogy/sportsgame.html" style="color:#14b8a6; font-weight:700;"><i
+                      class="fas fa-futbol"></i> Sports & Championship Tournaments:</a></strong>
+                Dominate the pitch and court with head-to-head football tournaments, street basketball showdowns, and
+                retro gridiron glory in
+                <em>Retro Bowl</em>, <em>Basketball Stars 2026</em>, <em>Football Legends 2026</em>, <em>Penalty
+                  Shooters
+                  3</em>, and <em>Boxing Random</em>.
+              </li>
+              <li>
+                <strong><a href="./catelogy/hotgame.html" style="color:#ef4444; font-weight:700;"><i
+                      class="fas fa-fire"></i> Hot & Trending Games:</a></strong>
+                Explore the most played, highest-rated, and community-favorite titles across every category, including
+                <em>Traffic Tour</em>, <em>Drive Mad</em>, <em>Time Shooter 2</em>, <em>2048</em>, and <em>Retro
+                  Bowl</em>.
+              </li>
+              <li>
+                <strong><a href="./catelogy/newgame.html" style="color:#10b981; font-weight:700;"><i
+                      class="fas fa-sparkles"></i> New Releases & Fresh Titles:</a></strong>
+                Stay ahead of the curve with daily updated HTML5 releases featuring fresh mechanics and cutting-edge
+                browser performance, including
+                <em>Drive Mad</em>, <em>Time Shooter 3 SWAT</em>, <em>Level Devil</em>, <em>Football Legends 2026</em>,
+                and <em>Vex 9</em>.
+              </li>
+            </ul>
+
+            <h3
+              style="font-family:var(--font-heading); font-size:17px; font-weight:800; color:#1f2937; margin-top:8px;">
+              <i class="fas fa-shield-alt" style="color:#10b981;"></i> Commitment to Player Safety & Quality Standards
+            </h3>
+            <p>
+              At Highway Racer 2, player trust is our core foundation. Every single game undergoes rigorous security
+              testing
+              before publishing to ensure zero harmful scripts, transparent privacy practices, and a safe environment
+              for
+              players of all ages. To learn more about our testing standards and team, read our <a href="./about.html"
+                style="color:var(--gd-primary); font-weight:700;">About Us & Editorial Standards</a>, inspect our <a
+                href="./privacy.html" style="color:var(--gd-primary); font-weight:700;">Privacy Policy</a>, or contact
+              our
+              support team on our <a href="./contact.html" style="color:var(--gd-primary); font-weight:700;">Contact
+                Page</a>.
+            </p>
+
+            <h3
+              style="font-family:var(--font-heading); font-size:17px; font-weight:800; color:#1f2937; margin-top:8px;">
+              <i class="fas fa-question-circle" style="color:#3b82f6;"></i> Frequently Asked Questions About Highway Racer 2 Portal
+            </h3>
+            <ul style="padding-left: 20px; display: flex; flex-direction: column; gap: 8px;">
+              <li><strong>Can I play Highway Racer 2 unblocked at school?</strong> Yes! Highway Racer 2 uses lightweight,
+                secure
+                HTTPS delivery through GitHub Pages global infrastructure, allowing smooth access across school,
+                university, and public networks.</li>
+              <li><strong>Do I need a high-end gaming PC to play?</strong> Not at all. All games are
+                hardware-accelerated
+                to run smoothly on standard laptops, Chromebooks, tablets, and budget computers with integrated
+                graphics.
+              </li>
+              <li><strong>How can I save my game progress?</strong> Your high scores, vehicle unlocks, and custom tuning
+                options are automatically preserved in your web browser's secure local cache.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <!-- RIGHT SKYSCRAPER AD (160x600) -->
+    <aside class="gd-ad-skyscraper-side gd-ad-skyscraper-right" aria-label="Right Side Advertisement">
+      <div class="gd-ad-skyscraper-container">
+        <span class="gd-ad-label">ADVERTISEMENT</span>
+        <div class="gd-ad-slot-160x600"></div>
+      </div>
+    </aside>
+
+  </div>
+
+  <!-- JAVASCRIPT -->
+  <script src="./js/gamedistribution.js"></script>
+  <!-- FOOTER SECTION WITH DOMAIN NAME -->
+  <footer class="gd-footer">
+    <div class="gd-footer-container">
+      <div class="gd-footer-brand">
+        <a href="./index.html" class="gd-logo">
+          <img src="./images/highway-racer-2.png" alt="Highway Racer 2" class="gd-logo-img">
+          <span class="gd-logo-text-rgb">Highway Racer 2</span>
         </a>
-
-        <ul class="footer-links">
-          <li><a href="#play">Highway Racer 2</a></li>
-          <li><a href="tokyo-midnight-drift.html">Tokyo Drift</a></li>
-          <li><a href="highway-cop-pursuit.html">Cop Pursuit</a></li>
-          <li><a href="hypercar-mega-ramp.html">Mega Ramp</a></li>
-          <li><a href="highway-moto-rush.html">Moto Rush</a></li>
-          <li><a href="#faq">FAQ</a></li>
-        </ul>
+        <p class="gd-footer-desc">
+          Play the best free online racing, drifting, and driving games directly in your browser with zero downloads.
+        </p>
       </div>
 
-      <div class="footer-bottom">
-        <p>&copy; 2026 Highway Racer 2. All rights reserved. Free online browser arcade racing.</p>
+      <div class="gd-footer-links">
+        <a href="./about.html" class="gd-footer-link">About Us</a>
+        <a href="./contact.html" class="gd-footer-link">Contact Us</a>
+        <a href="./privacy.html" class="gd-footer-link">Privacy Policy</a>
+        <a href="./terms.html" class="gd-footer-link">Terms of Service</a>
+      </div>
+
+      <div class="gd-footer-bottom">
+        <div class="gd-domain-badge">
+          <i class="fas fa-globe" style="color:var(--gd-primary);"></i>
+          <span class="gd-domain-name">highwayracer2.github.io</span>
+        </div>
+        <p class="gd-copyright">&copy; 2026 Highway Racer 2. All rights reserved.</p>
       </div>
     </div>
   </footer>
 
-  <!-- Scripts -->
-  <script src="js/game.js"></script>
-  <script src="js/main.js"></script>
+
 </body>
 
 </html>

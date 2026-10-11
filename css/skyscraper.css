@@ -1,0 +1,83 @@
+/* ==========================================================================
+   SIDE SKYSCRAPER ADS (160x600)
+   ========================================================================== */
+.gd-layout-with-skyscrapers {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.gd-ad-skyscraper-side {
+  position: sticky;
+  top: 75px;
+  width: 160px;
+  flex-shrink: 0;
+  z-index: 90;
+  margin-top: 18px;
+}
+
+.gd-ad-skyscraper-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  width: 160px;
+}
+
+.gd-ad-slot-160x600 {
+  width: 160px;
+  height: 600px;
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  border: 1.5px dashed #cbd5e1;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gd-ad-slot-160x600:hover {
+  border-color: #94a3b8;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.gd-ad-slot-160x600 ins.adsbygoogle {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  width: 160px;
+  height: 600px;
+}
+
+.gd-layout-with-skyscrapers > .gd-main-wrapper {
+  flex: 0 1 1280px;
+  max-width: 1280px;
+  width: 100%;
+  margin: 18px 0 48px;
+  min-width: 0;
+}
+
+@media (max-width: 1365px) {
+  .gd-ad-skyscraper-side {
+    display: none !important;
+  }
+  .gd-layout-with-skyscrapers > .gd-main-wrapper {
+    margin: 18px auto 48px;
+    max-width: 1280px;
+  }
+}
+
+@media (max-height: 690px) {
+  .gd-ad-skyscraper-side {
+    top: 65px;
+  }
+}
